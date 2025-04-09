@@ -1,7 +1,8 @@
-import { Navbar } from './components/navbar';
-import './styles/styles.css';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { AppRouter } from "./routing/AppRouter";
+import "./styles/styles.css";
+
 function App() {
+
   return (
     <Router>
       <Navbar />
@@ -14,6 +15,8 @@ function App() {
     </Router>
   );
 
+
 }
+
 
 export default App;
