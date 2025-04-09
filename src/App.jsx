@@ -1,9 +1,11 @@
-import { AppRouter } from "./routing/AppRouter";
-import "./styles/styles.css";
+import './styles/styles.css';
+import React from 'react';
 
 function App() {
-  
+
+
   return <AppRouter />;
+
 }
 
 export default App;
