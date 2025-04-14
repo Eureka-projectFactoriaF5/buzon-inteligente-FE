@@ -1,4 +1,5 @@
 
+
 import { FormularioRegistro } from './components/FormularioRegistro';
 import './styles/styles.css';
 import React from 'react';
