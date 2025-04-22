@@ -33,14 +33,14 @@ export const RegisterForm = () => {
   };
   return (
     <div id="register-form-container" className="form-container flex items-center justify-center bg-white relative font-bree p-8">
-        <div id="register-form-card" className="bg-[#E1E5FF] p-6 rounded-2xl max-w-md shadow-lg border-gray-300 max-h-[900px]">
+        <div id="register-form-card" className="bg-[#E1E5FF] p-6 rounded-2xl w-md shadow-lg border-gray-300">
         <h2 id="form-title" className="text-2xl text-center text-[#00174B] mb-4 font-bree">
           Registrarse
         </h2>
-        <form id="register-form" className="space-y-4 w-[85%] mx-auto" onSubmit={handleSubmit(onSubmit)}>
+        <form id="register-form" className="space-y-6 w-[90%] mx-auto" onSubmit={handleSubmit(onSubmit)}>
             <input id="input-nombre" type="text" placeholder="Nombre:" 
             {...register('nombre', { required: 'Campo obligatorio' })} className="w-full px-4 py-1 rounded-md border border-gray-300 bg-[#EEF0FF] text-[#00174B] focus:outline-none focus:ring-1"/>
-            {errors.dni && <p className="text-red-600 text-sm"> {errors.dni.message}</p>}
+            {errors.dni && <p className="text-red-600 "> {errors.dni.message}</p>}
             <input id="input-apellidos" type="text" placeholder="Apellidos:" 
             {...register('apellidos', { required: 'Campo obligatorio' })} className="w-full px-4 py-1 rounded-md border border-gray-300 bg-[#EEF0FF] text-[#00174B] focus:outline-none focus:ring-1"/>
             {errors.dni && <p className="text-red-600 text-sm"> {errors.dni.message}</p>}

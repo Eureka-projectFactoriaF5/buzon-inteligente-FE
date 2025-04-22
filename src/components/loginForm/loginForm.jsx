@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { LoginSuccessPopover } from "../LoginSuccessPopover";
+import { LoginSuccessPopover } from "../LoginSuccessModal";
 import { useLogin } from "../useLogin";
 
 export function LoginForm() {
