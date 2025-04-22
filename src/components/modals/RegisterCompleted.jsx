@@ -1,6 +1,6 @@
 import React from 'react';
 
-export function LoginSuccessModal({
+export function RegisterCompleted({
   message = "¡Registro completado!\nYa puedes iniciar sesión.",
   onClose,
 }) {

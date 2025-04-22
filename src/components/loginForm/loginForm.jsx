@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { LoginSuccessPopover } from "../LoginSuccessModal";
+import { LoginSuccessPopover } from "../modals/LoginSuccessModal";
 import { useLogin } from "../useLogin";
 
 export function LoginForm() {
@@ -75,8 +75,8 @@ export function LoginForm() {
                             type="submit"
                             disabled={isDisabled}
                             className={`w-2/3 max-w-xs py-3 rounded-full text-lg text-white ${isDisabled
-                                    ? "bg-[#00328c] opacity-50 cursor-not-allowed"
-                                    : "bg-[#00328c] hover:opacity-90 cursor-pointer"
+                                ? "bg-[#00328c] opacity-50 cursor-not-allowed"
+                                : "bg-[#00328c] hover:opacity-90 cursor-pointer"
                                 }`}
                         >
                             Enviar

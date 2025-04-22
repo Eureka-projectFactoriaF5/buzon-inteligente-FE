@@ -1,10 +1,9 @@
-import { LoginSuccessModal } from "./components/LoginSuccessModal";
-//import { AppRouter } from "./routing/AppRouter";
+import { AppRouter } from "./routing/AppRouter";
 import "./styles/styles.css";
 
 function App() {
   
-  return <LoginSuccessModal />;
+  return <AppRouter />;
 }
 
 export default App;
